@@ -1,0 +1,53 @@
+Basic Database Commands (MySQL)
+
+1. Create Database
+
+CREATE DATABASE mydb;
+
+2. Use Database
+
+USE mydb;
+
+3. Create Table
+
+CREATE TABLE employees (
+  id INT,
+  name VARCHAR(50),
+  salary INT
+);
+
+4. Insert Data
+
+INSERT INTO employees VALUES (1, 'John', 30000);
+
+5. Read Data
+
+SELECT * FROM employees;
+
+6. Update Data
+
+UPDATE employees SET salary = 35000 WHERE id = 1; 
+WHERE is for exact positional data UPDATE 
+SET SQL_SAFE_UPDATES = 0; for temporary safe mode fix
+
+7. Delete Data
+
+DELETE FROM employees WHERE id = 1;
+WITHOUT WHERE total data of table is deleted
+
+
+CREATE DATABASE mydata;
+USE mydata;
+
+CREATE TABLE market (
+Product VARCHAR(50) , 
+City VARCHAR(50) ,
+Sales INT );
+
+INSERT INTO market VALUES (
+MOBILE 'PATNA' 4000 ,
+LAPTOP DELHI 5000 ,
+TELEVISION CHHAPRA 500 ,
+LAPTOP PATNA 1000 ,
+TELEVISION DELHI 1250 ,
+MOBILE CHHAPRA 1500 );  '' - varchar needed
