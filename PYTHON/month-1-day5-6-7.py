@@ -80,4 +80,19 @@
 # a = int(input("enter number to check it is prime or not : "))
 # prime(a)
 
+# import csv 
 
+# with open("EXCEL/company.csv","r") as file:
+#     table = csv.DictReader(file)
+#     for data in table:
+#         #for this you first make list then do it 
+#         average = sum( [ int(data['sales']) ] ) / len( [ int(data['sales']) ] )
+#     print(average)
+
+# saless = []
+# with open("EXCEL/company.csv","r") as f:
+#     table = csv.DictReader(f)
+#     for data in table:
+#         saless.append(int(data['sales']))
+
+# print(saless)
